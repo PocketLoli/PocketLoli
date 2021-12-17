@@ -1,0 +1,19 @@
+package com.company;
+
+public class Main {
+    public String imie;
+    public String nazwisko;
+    public int numerDomu;
+
+    public Main(String imie, String nazwisko, int numerDomu) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.numerDomu = numerDomu;
+    }
+
+    static Main main = new Main("Bartek","Kulling",21);
+
+    public static void main(String[] args) {
+        System.out.println("Nazywam się "+main.imie+" "+main.nazwisko+", mieszkam pod numerem domu "+main.numerDomu);
+    }
+}
